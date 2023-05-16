@@ -1,0 +1,15 @@
+C:\Users\TAANASAA\Projects\csharp\net-Framework-Assignemt\Assignment1\obj\Debug\net7.0-windows\Assignment1.csproj.AssemblyReference.cache
+C:\Users\TAANASAA\Projects\csharp\net-Framework-Assignemt\Assignment1\obj\Debug\net7.0-windows\Assignment1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\TAANASAA\Projects\csharp\net-Framework-Assignemt\Assignment1\obj\Debug\net7.0-windows\Assignment1.AssemblyInfoInputs.cache
+C:\Users\TAANASAA\Projects\csharp\net-Framework-Assignemt\Assignment1\obj\Debug\net7.0-windows\Assignment1.AssemblyInfo.cs
+C:\Users\TAANASAA\Projects\csharp\net-Framework-Assignemt\Assignment1\obj\Debug\net7.0-windows\Assignment1.csproj.CoreCompileInputs.cache
+C:\Users\TAANASAA\Projects\csharp\net-Framework-Assignemt\Assignment1\bin\Debug\net7.0-windows\Assignment1.exe
+C:\Users\TAANASAA\Projects\csharp\net-Framework-Assignemt\Assignment1\bin\Debug\net7.0-windows\Assignment1.deps.json
+C:\Users\TAANASAA\Projects\csharp\net-Framework-Assignemt\Assignment1\bin\Debug\net7.0-windows\Assignment1.runtimeconfig.json
+C:\Users\TAANASAA\Projects\csharp\net-Framework-Assignemt\Assignment1\bin\Debug\net7.0-windows\Assignment1.dll
+C:\Users\TAANASAA\Projects\csharp\net-Framework-Assignemt\Assignment1\bin\Debug\net7.0-windows\Assignment1.pdb
+C:\Users\TAANASAA\Projects\csharp\net-Framework-Assignemt\Assignment1\obj\Debug\net7.0-windows\Assignment1.dll
+C:\Users\TAANASAA\Projects\csharp\net-Framework-Assignemt\Assignment1\obj\Debug\net7.0-windows\refint\Assignment1.dll
+C:\Users\TAANASAA\Projects\csharp\net-Framework-Assignemt\Assignment1\obj\Debug\net7.0-windows\Assignment1.pdb
+C:\Users\TAANASAA\Projects\csharp\net-Framework-Assignemt\Assignment1\obj\Debug\net7.0-windows\Assignment1.genruntimeconfig.cache
+C:\Users\TAANASAA\Projects\csharp\net-Framework-Assignemt\Assignment1\obj\Debug\net7.0-windows\ref\Assignment1.dll
