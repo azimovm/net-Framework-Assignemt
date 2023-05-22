@@ -1,0 +1,9 @@
+C:\Users\TAANASAA\Projects\csharp\net-Framework-Assignemt\Assignment4\Assignment4\obj\Debug\Assignment4.Properties.Resources.resources
+C:\Users\TAANASAA\Projects\csharp\net-Framework-Assignemt\Assignment4\Assignment4\obj\Debug\Assignment4.csproj.GenerateResource.cache
+C:\Users\TAANASAA\Projects\csharp\net-Framework-Assignemt\Assignment4\Assignment4\bin\Debug\Assignment4.exe.config
+C:\Users\TAANASAA\Projects\csharp\net-Framework-Assignemt\Assignment4\Assignment4\bin\Debug\Assignment4.exe
+C:\Users\TAANASAA\Projects\csharp\net-Framework-Assignemt\Assignment4\Assignment4\bin\Debug\Assignment4.pdb
+C:\Users\TAANASAA\Projects\csharp\net-Framework-Assignemt\Assignment4\Assignment4\obj\Debug\Assignment4.exe
+C:\Users\TAANASAA\Projects\csharp\net-Framework-Assignemt\Assignment4\Assignment4\obj\Debug\Assignment4.pdb
+C:\Users\TAANASAA\Projects\csharp\net-Framework-Assignemt\Assignment4\Assignment4\obj\Debug\Assignment4.Form1.resources
+C:\Users\TAANASAA\Projects\csharp\net-Framework-Assignemt\Assignment4\Assignment4\obj\Debug\Assignment4.csprojResolveAssemblyReference.cache
