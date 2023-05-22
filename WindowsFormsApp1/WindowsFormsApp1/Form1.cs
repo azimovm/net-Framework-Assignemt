@@ -4,7 +4,9 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Drawing.Imaging;
+using System.Drawing.Printing;
 using System.Linq;
+using System.Media;
 using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
@@ -22,6 +24,7 @@ namespace WindowsFormsApp1
         Pen eraser = new Pen(Color.White, 10);
         int index = 1;
         int x, y, sx, sy, cx, cy;
+        string soundFile = "click.wav";
 
         Color nColor;
         ColorDialog cd = new ColorDialog();
@@ -53,11 +56,13 @@ namespace WindowsFormsApp1
         private void Rectangle_MouseClick(object sender, MouseEventArgs e)
         {
             index = 4;
+            (new SoundPlayer(soundFile)).PlaySync();
         }
 
         private void Line_MouseClick(object sender, MouseEventArgs e)
         {
             index = 5;
+            (new SoundPlayer(soundFile)).PlaySync();
         }
 
         private void Pic_Paint(object sender, PaintEventArgs e)
@@ -108,6 +113,7 @@ namespace WindowsFormsApp1
 
         private void saveToolStripMenuItem_Click_1(object sender, EventArgs e)
         {
+            (new SoundPlayer(soundFile)).PlaySync();
             g.Clear(Color.White);
             Pic.Image = bm;
             index = 1;
@@ -120,10 +126,12 @@ namespace WindowsFormsApp1
             Pic.BackColor = nColor;
             p.Color = nColor;
             ColorPicker.BackColor = nColor;
+            (new SoundPlayer(soundFile)).PlaySync();
         }
 
         private void openToolStripMenuItem1_Click(object sender, EventArgs e)
         {
+            (new SoundPlayer(soundFile)).PlaySync();
             var ofd = new OpenFileDialog();
             ofd.Title = "Open Image";
             ofd.Filter = "Image Files (*.bmp;*.jpg;*.jpeg,*.png)|*.BMP;*.JPG;*.JPEG;*.PNG";
@@ -133,8 +141,24 @@ namespace WindowsFormsApp1
                 g = Graphics.FromImage(bm);
                 Pic.Image = bm;
             }
+            
+            (new SoundPlayer(soundFile)).PlaySync();
         }
 
+        private void printToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            (new SoundPlayer(soundFile)).PlaySync();
+            PrintDocument pd = new PrintDocument();
+            pd.PrintPage += PrintPage;
+            pd.Print();
+        }
+
+        private void PrintPage(object o, PrintPageEventArgs e)
+        {
+            Image img = bm;
+            Point loc = new Point(100, 100);
+            e.Graphics.DrawImage(img, loc);     
+        }
         private void pictureBox1_MouseUp(object sender, MouseEventArgs e)
         {
             paint = false;
@@ -146,11 +170,13 @@ namespace WindowsFormsApp1
 
         private void Pencil_MouseClick(object sender, MouseEventArgs e)
         {
+            (new SoundPlayer(soundFile)).PlaySync();
             index = 1;
         }
 
         private void Eraser_MouseClick(object sender, MouseEventArgs e)
         {
+            (new SoundPlayer(soundFile)).PlaySync();
             index = 2;
         }
 
