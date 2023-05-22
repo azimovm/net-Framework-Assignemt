@@ -6,4 +6,6 @@ C:\Users\TAANASAA\Projects\csharp\net-Framework-Assignemt\Assignment4\Assignment
 C:\Users\TAANASAA\Projects\csharp\net-Framework-Assignemt\Assignment4\Assignment4\obj\Debug\Assignment4.exe
 C:\Users\TAANASAA\Projects\csharp\net-Framework-Assignemt\Assignment4\Assignment4\obj\Debug\Assignment4.pdb
 C:\Users\TAANASAA\Projects\csharp\net-Framework-Assignemt\Assignment4\Assignment4\obj\Debug\Assignment4.Form1.resources
-C:\Users\TAANASAA\Projects\csharp\net-Framework-Assignemt\Assignment4\Assignment4\obj\Debug\Assignment4.csprojResolveAssemblyReference.cache
+C:\Users\TAANASAA\Projects\csharp\net-Framework-Assignemt\Assignment4\Assignment4\obj\Debug\Assignment4.csproj.AssemblyReference.cache
+C:\Users\TAANASAA\Projects\csharp\net-Framework-Assignemt\Assignment4\Assignment4\obj\Debug\Assignment4.csproj.SuggestedBindingRedirects.cache
+C:\Users\TAANASAA\Projects\csharp\net-Framework-Assignemt\Assignment4\Assignment4\obj\Debug\Assignment4.csproj.CoreCompileInputs.cache
